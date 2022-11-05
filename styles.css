@@ -73,7 +73,6 @@ section#letter2 {
 
 #letter2 > img {
     position: relative;
-    left: 300px;
     width: auto;
     height: 140px;
     transform: rotate(-10deg);
