@@ -27,7 +27,7 @@ body {
 }
 
 .wrapper {
-    width: 100vw;
+    width: 100%;
     display: grid;
     grid-template-rows: auto auto auto auto;
     gap: 4rem;
