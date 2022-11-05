@@ -1,0 +1,22 @@
+{
+  "name": "3rdcard",
+  "version": "1.0.0",
+  "description": "Anniversary Card",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chartley1988/3rdCard.git"
+  },
+  "author": "Carson Hartley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chartley1988/3rdCard/issues"
+  },
+  "homepage": "https://github.com/chartley1988/3rdCard#readme",
+  "dependencies": {
+    "live-server": "^1.1.0"
+  }
+}
