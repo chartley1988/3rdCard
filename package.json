@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/chartley1988/3rdCard/issues"
   },
-  "homepage": "https://github.com/chartley1988/3rdCard#readme",
-  "dependencies": {
-    "live-server": "^1.1.0"
-  }
+  "homepage": "https://github.com/chartley1988/3rdCard#readme"
 }
