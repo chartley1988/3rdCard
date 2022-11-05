@@ -16,7 +16,15 @@ body {
     width: 100vw;
 }
 
+.wrapper {
+    width: 100vw;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 4rem;
+}
+
 header {
+    padding: 2rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -36,34 +44,46 @@ p {
 }
 
 section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     grid-row: 2/3;
+}
+
+section > p {
     width: 60%;
 }
 
-.wrapper {
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto 600px;
-    align-items: center;
-    gap: 2rem;
-}
+
 
 #story-container {
+    padding: 2rem;
     grid-row: 3/4;
     overflow-x: scroll;
 
-    height: 600px;
     display: flex;
     flex-direction: row;
+
+    gap: 1rem;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
-#story-container > img {
+.story-card > img {
     height: 600px;
     width: auto;
 }
 
 .story-card {
-    width: 600px;
-    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    padding: 2rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.story-card > p {
+    height: 100%;
 }
